@@ -231,6 +231,7 @@ AnimeStudio-net10/_postmodel_test/
 # 第三方 TTS 及模型/环境/输出（不提交）
 index-tts/
 gpt-sovits/
+RVC/
 
 # 音频产物（克隆/参考音频，不提交）
 *.wav
@@ -252,3 +253,8 @@ tools/
 
 # 提弗洛斯语音克隆产物（不提交）
 typhoea_*/
+
+# 上述 _* 规则的例外：可复用的训练/推理脚本（不含数据/模型/密钥）
+!_train_gsv.py
+!_infer_gsv.py
+!_train_rvc.py
