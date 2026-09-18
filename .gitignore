@@ -230,6 +230,7 @@ AnimeStudio-net10/_postmodel_test/
 
 # 第三方 TTS 及模型/环境/输出（不提交）
 index-tts/
+gpt-sovits/
 
 # 音频产物（克隆/参考音频，不提交）
 *.wav
